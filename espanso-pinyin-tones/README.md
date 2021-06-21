@@ -31,4 +31,4 @@ Similarly, other tones can be created:
 | u  | ū  |  ú | ǔ  | ù  |
 | ü  | ǖ  |  ǘ | ǚ  | ǜ  |
 
-The only exception is that the marked characters for "ü" are typed a bit differently: {:uu5 -> ü}, {:uu1 -> ǖ}, etc.
+The only exception is that the marked characters for "ü" are typed a bit differently: {:u:5 -> ü}, {:u:1 -> ǖ}, etc.
