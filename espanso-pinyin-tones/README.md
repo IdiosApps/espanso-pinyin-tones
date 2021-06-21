@@ -6,11 +6,9 @@ package_version: "0.1.0"
 package_author: "James Clark"
 package_repo: "https://github.com/IdiosApps/espanso-pinyin-tones"
 ---
-A package for typing Chinese pinyin tones
+## An Espanso package for typing Chinese pinyin tones
 
-Source code is available at https://github.com/IdiosApps/espanso-pinyin-tones
-
-Here is an example of input and output, demonstrating the package's usage:
+This package allows you to quickly and easily write characters marked with pinyin tones. For example, marked characters for the letter "e" can be created as follows:
 
 | Input      | Output |
 | ----------- | ----------- |
@@ -32,3 +30,13 @@ Similarly, other tones can be created:
 | ü  | ǖ  |  ǘ | ǚ  | ǜ  |
 
 The only exception is that the marked characters for "ü" are typed a bit differently: {:u:5 -> ü}, {:u:1 -> ǖ}, etc.
+
+___
+
+### Installation
+
+This package is _not yet approved for the espanso-hub_ - but you can still install and use it!
+There isn't much in this [open-source espanso-pinyin-tones repository](https://github.com/IdiosApps/espanso-pinyin-tones), so have a look around and confirm you're happy to install this unapproved package:
+
+`espanso install -e espanso-pinyin-tones https://github.com/IdiosApps/espanso-pinyin-tones`
+
